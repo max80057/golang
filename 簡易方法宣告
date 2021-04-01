@@ -1,0 +1,19 @@
+package main
+
+import "fmt"
+
+func main() {
+	var msg string = "Hi";
+	fmt.Println(msg);
+	
+	message :="Hi Hi";
+	fmt.Println(message);
+
+	toTheworld();
+}
+
+
+
+func toTheworld(){
+	fmt.Println("Hello World!!!");
+}
