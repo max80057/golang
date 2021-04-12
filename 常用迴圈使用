@@ -1,0 +1,30 @@
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	j:=10
+	z:=0
+	for z<2 {
+		for i:=1 ; i<=5 ; i++{
+		j=10
+			fmt.Println(i);
+		
+			for j<=15{
+				if j == 14 {
+					j++
+					continue;
+				}
+				fmt.Println(j);
+				j++
+			}
+			if i == 4 {
+				break;
+			}
+		}
+		z++
+		fmt.Println("執行完成");
+	}
+}
